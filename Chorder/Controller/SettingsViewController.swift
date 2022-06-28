@@ -36,31 +36,67 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         settingsBlur.alpha = 1
-        doBlurDisappear() {
-            
-            self.isShowing = !self.chordProperties.hideNotes
-            self.guitarType = self.chordProperties.guitarType
-            self.fretsStyle = self.chordProperties.fretsStyle
-            self.tunningType = self.chordProperties.tuning
-            
-            self.tunningPicker.delegate = self
-            self.tunningPicker.dataSource = self
-            
-            self.fretsPicker.delegate = self
-            self.fretsPicker.dataSource = self
-            
-            self.guitarPicker.delegate = self
-            self.guitarPicker.dataSource = self
-            
-            setLabelTextConfiguration(for: &self.tunningTypeLabel)
-            setLabelTextConfiguration(for: &self.guitarTypeLabel)
-            setLabelTextConfiguration(for: &self.FretsTypeLabel)
-            setLabelTextConfiguration(for: &self.showNotesTypeLabel)
-            
-            self.initSettings()
-            
-        }
+//        doBlurDisappear() {
+//            
+//            self.isShowing = !self.chordProperties.hideNotes
+//            self.guitarType = self.chordProperties.guitarType
+//            self.fretsStyle = self.chordProperties.fretsStyle
+//            self.tunningType = self.chordProperties.tuning
+//            
+//            self.tunningPicker.delegate = self
+//            self.tunningPicker.dataSource = self
+//            
+//            self.fretsPicker.delegate = self
+//            self.fretsPicker.dataSource = self
+//            
+//            self.guitarPicker.delegate = self
+//            self.guitarPicker.dataSource = self
+//            
+//            setLabelTextConfiguration(for: &self.tunningTypeLabel)
+//            setLabelTextConfiguration(for: &self.guitarTypeLabel)
+//            setLabelTextConfiguration(for: &self.FretsTypeLabel)
+//            setLabelTextConfiguration(for: &self.showNotesTypeLabel)
+//            
+//            self.initSettings()
+//            
+//        }
         
+        self.isShowing = !self.chordProperties.hideNotes
+        self.guitarType = self.chordProperties.guitarType
+        self.fretsStyle = self.chordProperties.fretsStyle
+        self.tunningType = self.chordProperties.tuning
+        
+        self.tunningPicker.delegate = self
+        self.tunningPicker.dataSource = self
+        
+        self.fretsPicker.delegate = self
+        self.fretsPicker.dataSource = self
+        
+        self.guitarPicker.delegate = self
+        self.guitarPicker.dataSource = self
+        
+        setLabelTextConfiguration(for: &self.tunningTypeLabel)
+        setLabelTextConfiguration(for: &self.guitarTypeLabel)
+        setLabelTextConfiguration(for: &self.FretsTypeLabel)
+        setLabelTextConfiguration(for: &self.showNotesTypeLabel)
+        
+        self.initSettings()
+        
+        
+    }
+    
+//    override func viewDidAppear(_ animated: Bool) {
+//        super.viewDidAppear(animated)
+//        doBlurDisappear {
+//            print("Disappear")
+//        }
+//    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        doBlurDisappear {
+            print("disappear")
+        }
     }
     
     private func initSettings() {
@@ -127,7 +163,7 @@ class SettingsViewController: UIViewController {
         
     @IBAction func backButton(_ sender: UIButton) {
         CHDataStorage.updateChordData(withGuitarType: guitarType!, fretsStyle: fretsStyle!, tunningType: tunningType!, notesShowingType: isShowing!)
-//            let temporaryText = UIElementsOnWelcomeViewControllerStruct().TunningFieldText[self.chordProperties.tuning!]
+        print("Here i am")
         doBlurAppear() {
             self.dismiss(animated: true, completion: nil)
         }
@@ -149,7 +185,7 @@ class SettingsViewController: UIViewController {
     }
     
     private func doBlurDisappear(completion: @escaping () -> ()) -> Void {
-        UIView.animate(withDuration: 1, delay: 0, options: .curveLinear) {
+        UIView.animate(withDuration: 0.7, delay: 0, options: .curveLinear) {
             self.settingsBlur.alpha = 0
         } completion: { _ in
             completion()

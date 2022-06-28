@@ -43,13 +43,6 @@ class CDViewController: UIViewController {
         
     }
     
-//    func setHandler() -> Void {
-//        let settsView = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "settingsView") as! SettingsViewController
-//        settsView.completionHandler = { [unowned self] text in
-//            setTextToTunningfield(withText: text)
-//        }
-//    }
-    
     func setTextToTunningfield(withText: String) -> Void {
         TunningView.text = withText
     }
