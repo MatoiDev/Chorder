@@ -1,3 +1,10 @@
+//
+//  UIElementsConfiguration.swift
+//  Chorder
+//
+//  Created by AppleWorm on 22.06.2022.
+//
+
 import Foundation
 import UIKit
 
@@ -6,7 +13,7 @@ let americanTypeWriter: String = "AmericanTypewriter-CondensedBold"
 func setTextFieldConfiguration(for textField: inout UITextField, withText text: String = "...") -> Void {
     
     textField.isUserInteractionEnabled = false
-    textField.font = UIFont(name: americanTypeWriter, size: 30)
+    textField.font = UIFont(name: americanTypeWriter, size: 20)
     textField.textAlignment = .center
     textField.contentMode = .center
     textField.text = text

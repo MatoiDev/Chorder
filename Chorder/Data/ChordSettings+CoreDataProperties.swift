@@ -2,7 +2,7 @@
 //  ChordSettings+CoreDataProperties.swift
 //  Chorder
 //
-//  Created by Comatose on 23.06.2022.
+//  Created by AppleWorm on 23.06.2022.
 //
 //
 

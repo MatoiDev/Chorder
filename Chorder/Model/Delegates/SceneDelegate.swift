@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Chorder
 //
-//  Created by Comatose on 22.06.2022.
+//  Created by AppleWorm on 22.06.2022.
 //
 
 import UIKit

@@ -1,3 +1,10 @@
+//
+//  UIElementsAppearenceBase.swift
+//  Chorder
+//
+//  Created by AppleWorm on 22.06.2022.
+//
+
 import Foundation
 
 protocol UIElementsOnWelcomeViewControllerStructProtocol {

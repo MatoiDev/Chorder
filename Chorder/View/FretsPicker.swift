@@ -2,7 +2,7 @@
 //  FretsPicker.swift
 //  Chorder
 //
-//  Created by Comatose on 25.06.2022.
+//  Created by AppleWorm on 25.06.2022.
 //
 
 import UIKit

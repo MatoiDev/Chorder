@@ -1,3 +1,12 @@
+//
+//  ChordDataStorageManager.swift
+//  Chorder
+//
+//  Created by AppleWorm on 23.06.2022.
+//
+//
+
+
 import Foundation
 import CoreData
 import UIKit
