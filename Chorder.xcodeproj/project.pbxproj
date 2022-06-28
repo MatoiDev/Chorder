@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A08FCD72863BC5A008C9ADF /* ChordDataStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08FCD62863BC5A008C9ADF /* ChordDataStorageManager.swift */; };
+		9A08FCD92863BEDE008C9ADF /* ChordDataStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08FCD82863BEDE008C9ADF /* ChordDataStructs.swift */; };
+		9A08FCE02863C2F7008C9ADF /* ChordSettings+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08FCDE2863C2F7008C9ADF /* ChordSettings+CoreDataClass.swift */; };
+		9A08FCE12863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A08FCDF2863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift */; };
+		9A24278F28665D8E009EB1F0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A24278E28665D8E009EB1F0 /* SettingsViewController.swift */; };
+		9A26E47428674A0400E9CAB5 /* TunningPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E47328674A0400E9CAB5 /* TunningPicker.swift */; };
+		9A26E4762867776800E9CAB5 /* GuitarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E4752867776800E9CAB5 /* GuitarPicker.swift */; };
+		9A26E4782867780800E9CAB5 /* FretsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E4772867780800E9CAB5 /* FretsPicker.swift */; };
+		9ABEEADB286347CC00EF6DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */; };
+		9ABEEADD286347CC00EF6DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */; };
+		9ABEEADF286347CC00EF6DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADE286347CC00EF6DD7 /* ViewController.swift */; };
+		9ABEEAE2286347CC00EF6DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE0286347CC00EF6DD7 /* Main.storyboard */; };
+		9ABEEAE5286347CC00EF6DD7 /* Chorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE3286347CC00EF6DD7 /* Chorder.xcdatamodeld */; };
+		9ABEEAE7286347CC00EF6DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE6286347CC00EF6DD7 /* Assets.xcassets */; };
+		9AEC859C286503C00012676D /* UIElementsAppearenceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC859B286503C00012676D /* UIElementsAppearenceBase.swift */; };
+		9AEC859E286507060012676D /* UIElementsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC859D286507060012676D /* UIElementsConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A08FCD62863BC5A008C9ADF /* ChordDataStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDataStorageManager.swift; sourceTree = "<group>"; };
+		9A08FCD82863BEDE008C9ADF /* ChordDataStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordDataStructs.swift; sourceTree = "<group>"; };
+		9A08FCDE2863C2F7008C9ADF /* ChordSettings+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChordSettings+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9A08FCDF2863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChordSettings+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		9A24278E28665D8E009EB1F0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9A26E47328674A0400E9CAB5 /* TunningPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunningPicker.swift; sourceTree = "<group>"; };
+		9A26E4752867776800E9CAB5 /* GuitarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarPicker.swift; sourceTree = "<group>"; };
+		9A26E4772867780800E9CAB5 /* FretsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsPicker.swift; sourceTree = "<group>"; };
+		9ABEEAD7286347CC00EF6DD7 /* Chorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9ABEEADE286347CC00EF6DD7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ABEEAE1286347CC00EF6DD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ABEEAE4286347CC00EF6DD7 /* Chorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chorder.xcdatamodel; sourceTree = "<group>"; };
+		9ABEEAE6286347CC00EF6DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ABEEAEB286347CC00EF6DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEC859B286503C00012676D /* UIElementsAppearenceBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsAppearenceBase.swift; sourceTree = "<group>"; };
+		9AEC859D286507060012676D /* UIElementsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsConfiguration.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ABEEAD4286347CC00EF6DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A24278D28665C76009EB1F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC859D286507060012676D /* UIElementsConfiguration.swift */,
+				9A26E47328674A0400E9CAB5 /* TunningPicker.swift */,
+				9A26E4772867780800E9CAB5 /* FretsPicker.swift */,
+				9A26E4752867776800E9CAB5 /* GuitarPicker.swift */,
+				9ABEEAE0286347CC00EF6DD7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9ABEEACE286347CC00EF6DD7 = {
+			isa = PBXGroup;
+			children = (
+				9ABEEAD9286347CC00EF6DD7 /* Chorder */,
+				9ABEEAD8286347CC00EF6DD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ABEEAD8286347CC00EF6DD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEEAD7286347CC00EF6DD7 /* Chorder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ABEEAD9286347CC00EF6DD7 /* Chorder */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEEAF1286347D900EF6DD7 /* Model */,
+				9A24278D28665C76009EB1F0 /* View */,
+				9ABEEAF2286347E200EF6DD7 /* Controller */,
+				9ABEEAF32863482000EF6DD7 /* Data */,
+				9ABEEAEB286347CC00EF6DD7 /* Info.plist */,
+			);
+			path = Chorder;
+			sourceTree = "<group>";
+		};
+		9ABEEAF1286347D900EF6DD7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AEC859F286507EC0012676D /* Delegates */,
+				9AEC859B286503C00012676D /* UIElementsAppearenceBase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9ABEEAF2286347E200EF6DD7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEEADE286347CC00EF6DD7 /* ViewController.swift */,
+				9A24278E28665D8E009EB1F0 /* SettingsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9ABEEAF32863482000EF6DD7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9A08FCDE2863C2F7008C9ADF /* ChordSettings+CoreDataClass.swift */,
+				9A08FCDF2863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift */,
+				9A08FCD62863BC5A008C9ADF /* ChordDataStorageManager.swift */,
+				9A08FCD82863BEDE008C9ADF /* ChordDataStructs.swift */,
+				9ABEEAE3286347CC00EF6DD7 /* Chorder.xcdatamodeld */,
+				9ABEEAE6286347CC00EF6DD7 /* Assets.xcassets */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9AEC859F286507EC0012676D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */,
+				9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ABEEAD6286347CC00EF6DD7 /* Chorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ABEEAEE286347CC00EF6DD7 /* Build configuration list for PBXNativeTarget "Chorder" */;
+			buildPhases = (
+				9ABEEAD3286347CC00EF6DD7 /* Sources */,
+				9ABEEAD4286347CC00EF6DD7 /* Frameworks */,
+				9ABEEAD5286347CC00EF6DD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chorder;
+			productName = Chorder;
+			productReference = 9ABEEAD7286347CC00EF6DD7 /* Chorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ABEEACF286347CC00EF6DD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					9ABEEAD6286347CC00EF6DD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 9ABEEAD2286347CC00EF6DD7 /* Build configuration list for PBXProject "Chorder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ABEEACE286347CC00EF6DD7;
+			productRefGroup = 9ABEEAD8286347CC00EF6DD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ABEEAD6286347CC00EF6DD7 /* Chorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ABEEAD5286347CC00EF6DD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEEAE7286347CC00EF6DD7 /* Assets.xcassets in Resources */,
+				9ABEEAE2286347CC00EF6DD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ABEEAD3286347CC00EF6DD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ABEEADF286347CC00EF6DD7 /* ViewController.swift in Sources */,
+				9A26E4762867776800E9CAB5 /* GuitarPicker.swift in Sources */,
+				9AEC859E286507060012676D /* UIElementsConfiguration.swift in Sources */,
+				9A24278F28665D8E009EB1F0 /* SettingsViewController.swift in Sources */,
+				9ABEEADB286347CC00EF6DD7 /* AppDelegate.swift in Sources */,
+				9A08FCE02863C2F7008C9ADF /* ChordSettings+CoreDataClass.swift in Sources */,
+				9AEC859C286503C00012676D /* UIElementsAppearenceBase.swift in Sources */,
+				9ABEEADD286347CC00EF6DD7 /* SceneDelegate.swift in Sources */,
+				9A08FCD92863BEDE008C9ADF /* ChordDataStructs.swift in Sources */,
+				9A26E47428674A0400E9CAB5 /* TunningPicker.swift in Sources */,
+				9A08FCE12863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift in Sources */,
+				9A08FCD72863BC5A008C9ADF /* ChordDataStorageManager.swift in Sources */,
+				9A26E4782867780800E9CAB5 /* FretsPicker.swift in Sources */,
+				9ABEEAE5286347CC00EF6DD7 /* Chorder.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9ABEEAE0286347CC00EF6DD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ABEEAE1286347CC00EF6DD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ABEEAEC286347CC00EF6DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ABEEAED286347CC00EF6DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ABEEAEF286347CC00EF6DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXWB9U632D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dr.ih8jam.Chorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9ABEEAF0286347CC00EF6DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WXWB9U632D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Chorder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dr.ih8jam.Chorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ABEEAD2286347CC00EF6DD7 /* Build configuration list for PBXProject "Chorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABEEAEC286347CC00EF6DD7 /* Debug */,
+				9ABEEAED286347CC00EF6DD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ABEEAEE286347CC00EF6DD7 /* Build configuration list for PBXNativeTarget "Chorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ABEEAEF286347CC00EF6DD7 /* Debug */,
+				9ABEEAF0286347CC00EF6DD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ABEEAE3286347CC00EF6DD7 /* Chorder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ABEEAE4286347CC00EF6DD7 /* Chorder.xcdatamodel */,
+			);
+			currentVersion = 9ABEEAE4286347CC00EF6DD7 /* Chorder.xcdatamodel */;
+			path = Chorder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ABEEACF286347CC00EF6DD7 /* Project object */;
+}
