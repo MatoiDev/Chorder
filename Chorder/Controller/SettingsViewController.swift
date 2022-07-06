@@ -36,30 +36,6 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         settingsBlur.alpha = 1
-//        doBlurDisappear() {
-//            
-//            self.isShowing = !self.chordProperties.hideNotes
-//            self.guitarType = self.chordProperties.guitarType
-//            self.fretsStyle = self.chordProperties.fretsStyle
-//            self.tunningType = self.chordProperties.tuning
-//            
-//            self.tunningPicker.delegate = self
-//            self.tunningPicker.dataSource = self
-//            
-//            self.fretsPicker.delegate = self
-//            self.fretsPicker.dataSource = self
-//            
-//            self.guitarPicker.delegate = self
-//            self.guitarPicker.dataSource = self
-//            
-//            setLabelTextConfiguration(for: &self.tunningTypeLabel)
-//            setLabelTextConfiguration(for: &self.guitarTypeLabel)
-//            setLabelTextConfiguration(for: &self.FretsTypeLabel)
-//            setLabelTextConfiguration(for: &self.showNotesTypeLabel)
-//            
-//            self.initSettings()
-//            
-//        }
         
         self.isShowing = !self.chordProperties.hideNotes
         self.guitarType = self.chordProperties.guitarType
@@ -85,12 +61,6 @@ class SettingsViewController: UIViewController {
         
     }
     
-//    override func viewDidAppear(_ animated: Bool) {
-//        super.viewDidAppear(animated)
-//        doBlurDisappear {
-//            print("Disappear")
-//        }
-//    }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
