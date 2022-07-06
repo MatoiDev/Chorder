@@ -24,14 +24,19 @@
                                 </constraints>
                                 <items>
                                     <barButtonItem style="plain" id="z4X-nA-h6L">
-                                        <view key="customView" contentMode="scaleToFill" id="8cn-Qz-DkO">
+                                        <view key="customView" contentMode="scaleToFill" ambiguous="YES" id="8cn-Qz-DkO">
                                             <rect key="frame" x="64" y="36.5" width="48" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-YW-9Y9">
-                                                    <rect key="frame" x="-9" y="0.0" width="66" height="17"/>
+                                                    <rect key="frame" x="-9" y="0.0" width="50" height="50"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="oIL-Ic-Ntj"/>
+                                                        <constraint firstAttribute="height" constant="50" id="yut-s3-u7e"/>
+                                                    </constraints>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
+                                                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title=" ">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
                                                         <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </buttonConfiguration>
@@ -87,8 +92,9 @@
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGw-l7-3jW">
                                                     <rect key="frame" x="10" y="10" width="103" height="44"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="repeat.circle" catalog="system">
+                                                    <buttonConfiguration key="configuration" style="plain" image="repeat.circle" catalog="system" title=" ">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
                                                         <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     </buttonConfiguration>
@@ -307,7 +313,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMj-Nl-pBh">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMj-Nl-pBh">
                                                     <rect key="frame" x="100" y="15" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="BXi-mL-UEl"/>
@@ -315,14 +321,14 @@
                                                     </constraints>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system">
+                                                    <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system" title=" ">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25" weight="semibold"/>
                                                     </buttonConfiguration>
                                                     <connections>
                                                         <segue destination="Ei3-Bf-MIi" kind="show" id="bcq-XY-ELu"/>
                                                     </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziG-gm-aaN">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ziG-gm-aaN">
                                                     <rect key="frame" x="836" y="15" width="40" height="40"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="40" id="fpC-3O-CqI"/>
@@ -330,7 +336,7 @@
                                                     </constraints>
                                                     <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system">
+                                                    <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title=" ">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
                                                     </buttonConfiguration>
                                                 </button>
@@ -401,7 +407,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="2352" height="309"/>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQy-EZ-zHJ">
-                                                <rect key="frame" x="114" y="309" width="771" height="35"/>
+                                                <rect key="frame" x="0.0" y="309" width="771" height="35"/>
                                                 <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                         </subviews>
