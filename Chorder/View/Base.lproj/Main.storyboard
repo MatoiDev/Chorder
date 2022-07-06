@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZDa-7r-oJC">
     <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,11 +25,11 @@
                                 <items>
                                     <barButtonItem style="plain" id="z4X-nA-h6L">
                                         <view key="customView" contentMode="scaleToFill" id="8cn-Qz-DkO">
-                                            <rect key="frame" x="64" y="11.5" width="48" height="67"/>
+                                            <rect key="frame" x="64" y="36.5" width="48" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-YW-9Y9">
-                                                    <rect key="frame" x="-9" y="9" width="66" height="49"/>
+                                                    <rect key="frame" x="-9" y="0.0" width="66" height="17"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
@@ -41,7 +42,7 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Eru-YW-9Y9" firstAttribute="top" secondItem="8cn-Qz-DkO" secondAttribute="top" constant="9" id="8iS-Zp-bBF"/>
+                                                <constraint firstItem="Eru-YW-9Y9" firstAttribute="top" secondItem="8cn-Qz-DkO" secondAttribute="top" id="8iS-Zp-bBF"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="centerY" secondItem="8cn-Qz-DkO" secondAttribute="centerY" id="MGh-OT-21q"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="leading" secondItem="8cn-Qz-DkO" secondAttribute="leading" constant="-9" id="N5O-eu-XbJ"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="centerX" secondItem="8cn-Qz-DkO" secondAttribute="centerX" id="T5x-Bg-Z0Q"/>
@@ -51,11 +52,11 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="3Iq-c1-9od"/>
                                     <barButtonItem style="plain" id="ZKc-tL-UR4">
                                         <view key="customView" contentMode="scaleToFill" id="433-0X-3Y6">
-                                            <rect key="frame" x="328" y="11.5" width="240" height="67"/>
+                                            <rect key="frame" x="328" y="36.5" width="240" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ycc-FK-3np">
-                                                    <rect key="frame" x="61" y="0.0" width="118" height="67"/>
+                                                    <rect key="frame" x="61" y="0.0" width="118" height="17"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Settings">
                                                             <attributes>
@@ -80,12 +81,12 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="TU3-QV-y4W"/>
                                     <barButtonItem style="plain" id="FXB-It-GyI">
-                                        <view key="customView" contentMode="scaleToFill" id="VR2-OV-r1V">
-                                            <rect key="frame" x="709" y="11.5" width="123" height="67"/>
+                                        <view key="customView" contentMode="scaleToFill" ambiguous="YES" id="VR2-OV-r1V">
+                                            <rect key="frame" x="709" y="36.5" width="123" height="17"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGw-l7-3jW">
-                                                    <rect key="frame" x="10" y="10" width="103" height="47"/>
+                                                    <rect key="frame" x="10" y="10" width="103" height="44"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="repeat.circle" catalog="system">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
@@ -377,7 +378,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.14901961389999999" green="0.14901961389999999" blue="0.14901961389999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstItem="PeO-G8-4vH" firstAttribute="leading" secondItem="gIA-Iv-nC7" secondAttribute="leading" constant="15" id="3mT-vZ-1RO"/>
                                             <constraint firstAttribute="width" constant="125" id="DfB-ng-S2M"/>
@@ -393,20 +394,28 @@
                                             <constraint firstAttribute="bottom" secondItem="PeO-G8-4vH" secondAttribute="bottom" constant="5" id="seN-Xq-9H6"/>
                                         </constraints>
                                     </view>
-                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7QU-RZ-iux">
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7QU-RZ-iux">
                                         <rect key="frame" x="125" y="0.0" width="771" height="344"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stan" translatesAutoresizingMaskIntoConstraints="NO" id="JKv-nn-q9M">
-                                                <rect key="frame" x="0.0" y="0.0" width="4076" height="344"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stan" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKv-nn-q9M">
+                                                <rect key="frame" x="0.0" y="0.0" width="2352" height="309"/>
                                             </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SQy-EZ-zHJ">
+                                                <rect key="frame" x="114" y="309" width="771" height="35"/>
+                                                <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            </stackView>
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="JKv-nn-q9M" firstAttribute="top" secondItem="9mB-HU-zvS" secondAttribute="top" id="DfA-6K-LmM"/>
-                                            <constraint firstItem="JKv-nn-q9M" firstAttribute="height" secondItem="URy-cA-dqN" secondAttribute="height" id="EAY-br-8C5"/>
+                                            <constraint firstItem="JKv-nn-q9M" firstAttribute="height" secondItem="URy-cA-dqN" secondAttribute="height" constant="-35" id="EAY-br-8C5"/>
                                             <constraint firstItem="JKv-nn-q9M" firstAttribute="trailing" secondItem="9mB-HU-zvS" secondAttribute="trailing" id="Hlu-i0-C7f"/>
+                                            <constraint firstItem="SQy-EZ-zHJ" firstAttribute="leading" secondItem="URy-cA-dqN" secondAttribute="leading" id="NIa-pJ-Xj3"/>
                                             <constraint firstItem="JKv-nn-q9M" firstAttribute="bottom" secondItem="9mB-HU-zvS" secondAttribute="bottom" id="UBh-DI-jw4"/>
                                             <constraint firstItem="JKv-nn-q9M" firstAttribute="width" secondItem="URy-cA-dqN" secondAttribute="width" priority="250" id="Xyd-Ie-GMy"/>
+                                            <constraint firstItem="SQy-EZ-zHJ" firstAttribute="bottom" secondItem="URy-cA-dqN" secondAttribute="bottom" id="bSA-7D-Dh5"/>
+                                            <constraint firstItem="SQy-EZ-zHJ" firstAttribute="top" secondItem="JKv-nn-q9M" secondAttribute="bottom" id="mKF-kt-KYO"/>
                                             <constraint firstItem="JKv-nn-q9M" firstAttribute="leading" secondItem="9mB-HU-zvS" secondAttribute="leading" id="nne-i9-L1i"/>
+                                            <constraint firstItem="SQy-EZ-zHJ" firstAttribute="trailing" secondItem="URy-cA-dqN" secondAttribute="trailing" id="tlW-wq-cHc"/>
                                         </constraints>
                                         <viewLayoutGuide key="contentLayoutGuide" id="9mB-HU-zvS"/>
                                         <viewLayoutGuide key="frameLayoutGuide" id="URy-cA-dqN"/>
@@ -469,6 +478,6 @@
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="repeat.circle" catalog="system" width="128" height="121"/>
-        <image name="stan" width="4076" height="400"/>
+        <image name="stan" width="2352" height="309"/>
     </resources>
 </document>
