@@ -29,7 +29,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eru-YW-9Y9">
-                                                    <rect key="frame" x="-9" y="0.0" width="50" height="50"/>
+                                                    <rect key="frame" x="-9" y="-16.5" width="50" height="50"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="50" id="oIL-Ic-Ntj"/>
                                                         <constraint firstAttribute="height" constant="50" id="yut-s3-u7e"/>
@@ -47,7 +47,7 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Eru-YW-9Y9" firstAttribute="top" secondItem="8cn-Qz-DkO" secondAttribute="top" id="8iS-Zp-bBF"/>
+                                                <constraint firstItem="Eru-YW-9Y9" firstAttribute="top" secondItem="8cn-Qz-DkO" secondAttribute="top" priority="999" id="8iS-Zp-bBF"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="centerY" secondItem="8cn-Qz-DkO" secondAttribute="centerY" id="MGh-OT-21q"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="leading" secondItem="8cn-Qz-DkO" secondAttribute="leading" constant="-9" id="N5O-eu-XbJ"/>
                                                 <constraint firstItem="Eru-YW-9Y9" firstAttribute="centerX" secondItem="8cn-Qz-DkO" secondAttribute="centerX" id="T5x-Bg-Z0Q"/>
@@ -307,8 +307,11 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="173-1d-n2K">
-                                                    <rect key="frame" x="472" y="18" width="32" height="34"/>
+                                                    <rect key="frame" x="413" y="18" width="150" height="34"/>
                                                     <color key="backgroundColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="150" id="1tT-jH-79Q"/>
+                                                    </constraints>
                                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <textInputTraits key="textInputTraits"/>
