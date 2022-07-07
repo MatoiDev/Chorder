@@ -32,12 +32,12 @@ class ChordDataStorageManager: UIViewController {
         data.guitarType = ChordDataStruct.CDGuitarType.acousticGuitarType.rawValue
         data.tuning = ChordDataStruct.CDTunning.standartETunning.rawValue
 
-        do { try viewContext.save() } catch let error as NSError {
-            showTroubleAlert(withTrouble: error) }
+        do { try viewContext.save() } catch let error as NSError { showTroubleAlert(withTrouble: error) }
         
     }
     
     func updateChordData(withGuitarType guitarType: String, fretsStyle: String, tunningType: String, notesShowingType: Bool) -> Void {
+        
         chordSettings.hideNotes = !notesShowingType
         chordSettings.fretsStyle = fretsStyle
         chordSettings.guitarType = guitarType

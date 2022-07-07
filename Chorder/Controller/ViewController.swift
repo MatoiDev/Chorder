@@ -10,8 +10,11 @@ import CoreData
 
 
 protocol MainControllerDelegate {
+    
     var eachFretLabels: [UILabel]? { get }
     var fretLabels: [UILabel]? { get }
+    var onPunchTunningLabels: [UILabel]? { get }
+    
 }
 
 
@@ -52,6 +55,18 @@ class CDViewController: UIViewController, MainControllerDelegate {
     /* ——————————————————————————————————————————————————————————*/
     
     
+    /* —————————————— Tunning Labels On Punch Board —————————————— */
+    
+    @IBOutlet weak var FSTStringPunchLabel: UILabel!
+    @IBOutlet weak var SCNDStringPunchLabel: UILabel!
+    @IBOutlet weak var THRDStringPunchLabel: UILabel!
+    @IBOutlet weak var FRTHStringPunchLabel: UILabel!
+    @IBOutlet weak var FIFTHStringPunchLabel: UILabel!
+    @IBOutlet weak var SIXTHStringPunchLabel: UILabel!
+    
+    /* ——————————————————————————————————————————————————————————— */
+    
+    
     @IBOutlet var TunningView: UITextField!
     @IBOutlet var ChordTextField: UITextField!
     @IBOutlet var SettingsButton: UIButton!
@@ -61,6 +76,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
     
     var eachFretLabels: [UILabel]? = nil
     var fretLabels: [UILabel]? = nil
+    var onPunchTunningLabels: [UILabel]? = nil
     
     //Other options
     var chordProperties: ChordSettings!
@@ -70,9 +86,26 @@ class CDViewController: UIViewController, MainControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        eachFretLabels = [fret1, fret2, fret3, fret4, fret5, fret6, fret7, fret8, fret9, fret10, fret11, fret12,
-                 fret13, fret14, fret15, fret16, fret17, fret18, fret19, fret20, fret21, fret22, fret23, fret24]
-        fretLabels = [fret1, fret3, fret5, fret7, fret9, fret12, fret15, fret17, fret19, fret21, fret24]
+        eachFretLabels = [fret1, fret2, fret3,
+                          fret4, fret5, fret6,
+                          fret7, fret8, fret9,
+                          fret10, fret11, fret12,
+                          fret13, fret14, fret15,
+                          fret16, fret17, fret18,
+                          fret19, fret20, fret21,
+                          fret22, fret23, fret24]
+        
+        fretLabels = [fret1, fret3, fret5,
+                      fret7, fret9, fret12,
+                      fret15, fret17, fret19,
+                      fret21, fret24]
+        
+        onPunchTunningLabels = [FSTStringPunchLabel,
+                                SCNDStringPunchLabel,
+                                THRDStringPunchLabel,
+                                FRTHStringPunchLabel,
+                                FIFTHStringPunchLabel,
+                                SIXTHStringPunchLabel]
         
         CHDataStorage.initChordData()
         chordProperties = CHDataStorage.chordSettings
@@ -116,9 +149,11 @@ class CDViewController: UIViewController, MainControllerDelegate {
     }
     
     @IBAction func unwindToFirstScreen(_ segue: UIStoryboardSegue) {
+        
         textForTunningTextField = ElementsBase.TunningFieldText[chordProperties.tuning!]
         setTextFieldConfiguration(for: &TunningView, withText: textForTunningTextField!)
         setLablesOfFretsConfiguration(withStyle: chordProperties.fretsStyle!, controller: self)
+        setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
         
     }
 

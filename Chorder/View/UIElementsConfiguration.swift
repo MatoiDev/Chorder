@@ -43,6 +43,61 @@ func setLabelTextConfiguration(for label: inout UILabel) -> Void {
     
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+func setTunningLabelsOnPunchBoard(withTunning tunning: String, controller: MainControllerDelegate) -> Void {
+    
+    switch tunning {
+    case ChordDataStruct.CDTunning.openGTunning.rawValue:
+        setOpenGTunningOnPunchBoard(toController: controller)
+    case ChordDataStruct.CDTunning.openDTunning.rawValue:
+        setOpenDTunningOnPunchBoard(toController: controller)
+    case ChordDataStruct.CDTunning.modalDTunning.rawValue:
+        setModalDTunningOnPunchBoard(toController: controller)
+    case ChordDataStruct.CDTunning.dropDTunning.rawValue:
+        setDropDTunningOnPunchBoard(toController: controller)
+    default:
+        setStandartETunningOnPunchBoard(toController: controller)
+    }
+    
+}
+
+private func setOpenGTunningOnPunchBoard(toController controller: MainControllerDelegate) -> Void {
+    for i in 0...5 {
+        controller.onPunchTunningLabels?[i].text = elementsBase.onPunchLabelsTunningsDesignations[ChordDataStruct.CDTunning.openGTunning.rawValue]![i]
+        controller.onPunchTunningLabels?[i].textAlignment = .center
+    }
+}
+
+private func setOpenDTunningOnPunchBoard(toController controller: MainControllerDelegate) -> Void {
+    for i in 0...5 {
+        controller.onPunchTunningLabels?[i].text = elementsBase.onPunchLabelsTunningsDesignations[ChordDataStruct.CDTunning.openDTunning.rawValue]![i]
+        controller.onPunchTunningLabels?[i].textAlignment = .center
+    }
+}
+
+private func setStandartETunningOnPunchBoard(toController controller: MainControllerDelegate) -> Void {
+    for i in 0...5 {
+        controller.onPunchTunningLabels?[i].text = elementsBase.onPunchLabelsTunningsDesignations[ChordDataStruct.CDTunning.standartETunning.rawValue]![i]
+        controller.onPunchTunningLabels?[i].textAlignment = .center
+    }
+}
+
+private func setModalDTunningOnPunchBoard(toController controller: MainControllerDelegate) -> Void {
+    for i in 0...5 {
+        controller.onPunchTunningLabels?[i].text = elementsBase.onPunchLabelsTunningsDesignations[ChordDataStruct.CDTunning.modalDTunning.rawValue]![i]
+        controller.onPunchTunningLabels?[i].textAlignment = .center
+    }
+}
+
+private func setDropDTunningOnPunchBoard(toController controller: MainControllerDelegate) -> Void {
+    for i in 0...5 {
+        controller.onPunchTunningLabels?[i].text = elementsBase.onPunchLabelsTunningsDesignations[ChordDataStruct.CDTunning.dropDTunning.rawValue]![i]
+        controller.onPunchTunningLabels?[i].textAlignment = .center
+    }
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
 
 func setLablesOfFretsConfiguration(withStyle style: String, controller: MainControllerDelegate) -> Void {
     resetFretsLabels(onController: controller)
@@ -88,3 +143,5 @@ private func resetFretsLabels(onController controller: MainControllerDelegate) -
         label.text = ""
     })
 }
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */

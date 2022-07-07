@@ -10,7 +10,9 @@ import Foundation
 protocol UIElementsOnWelcomeViewControllerStructProtocol {
     
     var TunningFieldText : [ChordDataStruct.CDTunning.RawValue : String] { get }
+    
     var fretsDesignations : [ChordDataStruct.CDFretsStyles.RawValue : [String]] { get }
+    var onPunchLabelsTunningsDesignations : [ChordDataStruct.CDTunning.RawValue : [String]] { get }
     
 }
 
@@ -23,6 +25,31 @@ struct UIElementsOnWelcomeViewControllerStruct: UIElementsOnWelcomeViewControlle
         "openDTunning" : "open D",
         "modalDTunning" : "modal D",
         "dropDTunning" : "drop D"
+    ]
+    
+    var onPunchLabelsTunningsDesignations: [ChordDataStruct.CDTunning.RawValue : [String]] = [
+        
+        ChordDataStruct.CDTunning.openGTunning.rawValue : [
+            "D", "B", "G", "D", "G", "D"
+        ],
+        
+        ChordDataStruct.CDTunning.openDTunning.rawValue : [
+            "d", "A", "F#", "D", "A", "D"
+        ],
+        
+        ChordDataStruct.CDTunning.standartETunning.rawValue : [
+            "e", "B", "G", "D", "A", "E"
+        ],
+        
+        ChordDataStruct.CDTunning.modalDTunning.rawValue : [
+            "d", "A", "G", "D", "A", "D"
+        ],
+        
+        ChordDataStruct.CDTunning.dropDTunning.rawValue : [
+            "E", "B", "G", "D", "A", "D"
+        ]
+        
+    
     ]
     
     var fretsDesignations: [ChordDataStruct.CDFretsStyles.RawValue : [String]] = [
