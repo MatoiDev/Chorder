@@ -836,8 +836,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -856,9 +855,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="pzM-Oh-Duf"/>
                                                                 </connections>
@@ -875,9 +872,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="yD3-nA-MdO"/>
                                                                 </connections>
@@ -894,9 +889,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="06d-qT-91L"/>
                                                                 </connections>
@@ -913,9 +906,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="tjv-Wp-dzb"/>
                                                                 </connections>
@@ -932,9 +923,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="em1-2h-5pL"/>
                                                                 </connections>
@@ -960,8 +949,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -980,9 +968,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="87C-rR-nR7"/>
                                                                 </connections>
@@ -999,9 +985,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="FW0-MO-Lm0"/>
                                                                 </connections>
@@ -1018,9 +1002,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="AXx-Hn-Rch"/>
                                                                 </connections>
@@ -1037,9 +1019,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="UcV-6A-srm"/>
                                                                 </connections>
@@ -1056,9 +1036,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="LkR-6b-s48"/>
                                                                 </connections>
@@ -1085,8 +1063,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1105,9 +1082,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="gPc-f7-Mwz"/>
                                                                 </connections>
@@ -1124,9 +1099,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="3gN-w8-khU"/>
                                                                 </connections>
@@ -1143,9 +1116,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="R2Q-eX-5mS"/>
                                                                 </connections>
@@ -1162,9 +1133,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="5sW-cd-5C1"/>
                                                                 </connections>
@@ -1181,9 +1150,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="ud9-Bd-Nbx"/>
                                                                 </connections>
@@ -1211,8 +1178,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1231,9 +1197,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="NgV-Tz-1U2"/>
                                                                 </connections>
@@ -1250,9 +1214,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="oab-UP-oZt"/>
                                                                 </connections>
@@ -1269,9 +1231,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="zCI-TZ-e2I"/>
                                                                 </connections>
@@ -1288,9 +1248,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="DpT-wz-gde"/>
                                                                 </connections>
@@ -1307,9 +1265,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="rWE-nG-D6D"/>
                                                                 </connections>
@@ -1338,8 +1294,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1358,9 +1313,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="IS3-nT-29X"/>
                                                                 </connections>
@@ -1377,9 +1330,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="i1C-eS-pNo"/>
                                                                 </connections>
@@ -1396,9 +1347,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="M6D-pN-ICa"/>
                                                                 </connections>
@@ -1415,9 +1364,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="5da-yI-Jlr"/>
                                                                 </connections>
@@ -1434,9 +1381,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="rqL-OR-Uia"/>
                                                                 </connections>
@@ -1466,8 +1411,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1486,9 +1430,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="731-L9-anx"/>
                                                                 </connections>
@@ -1505,9 +1447,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="nlO-hS-8Hl"/>
                                                                 </connections>
@@ -1524,9 +1464,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="oQ3-jS-aKg"/>
                                                                 </connections>
@@ -1543,9 +1481,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="p3s-LM-Vgt"/>
                                                                 </connections>
@@ -1562,9 +1498,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="WS2-xz-SyG"/>
                                                                 </connections>
@@ -1595,8 +1529,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1615,9 +1548,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="McR-lC-YUU"/>
                                                                 </connections>
@@ -1634,9 +1565,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Jqn-eb-vl1"/>
                                                                 </connections>
@@ -1653,9 +1582,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Vst-OB-Z1N"/>
                                                                 </connections>
@@ -1672,9 +1599,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Itt-9C-q7i"/>
                                                                 </connections>
@@ -1691,9 +1616,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="vh6-17-OD9"/>
                                                                 </connections>
@@ -1725,8 +1648,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1745,9 +1667,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="A8B-EX-FH1"/>
                                                                 </connections>
@@ -1764,9 +1684,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="pbp-d0-HPT"/>
                                                                 </connections>
@@ -1783,9 +1701,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Pjn-lE-rUQ"/>
                                                                 </connections>
@@ -1802,9 +1718,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="079-a0-V1r"/>
                                                                 </connections>
@@ -1821,9 +1735,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="z3Y-qA-L1d"/>
                                                                 </connections>
@@ -1856,8 +1768,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -1876,9 +1787,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="hHg-du-vga"/>
                                                                 </connections>
@@ -1895,9 +1804,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="LQZ-OO-IyY"/>
                                                                 </connections>
@@ -1914,9 +1821,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="gnL-HP-1AG"/>
                                                                 </connections>
@@ -1933,9 +1838,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="e60-G3-9wA"/>
                                                                 </connections>
@@ -1952,9 +1855,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="OeZ-bN-Cvx"/>
                                                                 </connections>
@@ -1988,8 +1889,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2008,9 +1908,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="0R0-KI-lFC"/>
                                                                 </connections>
@@ -2027,9 +1925,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="62R-BW-ouh"/>
                                                                 </connections>
@@ -2046,9 +1942,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="SST-K4-vYr"/>
                                                                 </connections>
@@ -2065,9 +1959,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Utj-Mg-Obo"/>
                                                                 </connections>
@@ -2084,9 +1976,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="q9h-k7-QSf"/>
                                                                 </connections>
@@ -2121,8 +2011,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2141,9 +2030,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="PS4-q6-hZj"/>
                                                                 </connections>
@@ -2160,9 +2047,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="kg1-d2-FtR"/>
                                                                 </connections>
@@ -2179,9 +2064,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="ouh-Em-SCK"/>
                                                                 </connections>
@@ -2198,9 +2081,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="NPw-79-Sp9"/>
                                                                 </connections>
@@ -2217,9 +2098,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Ya8-0b-ELc"/>
                                                                 </connections>
@@ -2255,8 +2134,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2275,9 +2153,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="y6A-Aj-hoR"/>
                                                                 </connections>
@@ -2294,9 +2170,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="VVW-fs-dnM"/>
                                                                 </connections>
@@ -2313,9 +2187,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="VaP-NY-FHW"/>
                                                                 </connections>
@@ -2332,9 +2204,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="hD5-LD-Uds"/>
                                                                 </connections>
@@ -2351,9 +2221,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="NfB-Mz-sBq"/>
                                                                 </connections>
@@ -2389,8 +2257,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2409,9 +2276,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="A7R-g0-gVi"/>
                                                                 </connections>
@@ -2428,9 +2293,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="B7d-bl-j7b"/>
                                                                 </connections>
@@ -2447,9 +2310,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="hy1-iV-9D2"/>
                                                                 </connections>
@@ -2466,9 +2327,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="t7a-hc-Cdw"/>
                                                                 </connections>
@@ -2485,9 +2344,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="eat-iF-35v"/>
                                                                 </connections>
@@ -2524,8 +2381,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2544,9 +2400,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="e71-MC-TwA"/>
                                                                 </connections>
@@ -2563,9 +2417,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="edc-CI-l81"/>
                                                                 </connections>
@@ -2582,9 +2434,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="n5b-lA-oy9"/>
                                                                 </connections>
@@ -2601,9 +2451,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="qxj-iI-1Ie"/>
                                                                 </connections>
@@ -2620,9 +2468,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="67i-FY-rdH"/>
                                                                 </connections>
@@ -2660,8 +2506,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2680,9 +2525,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="g3p-cd-hw4"/>
                                                                 </connections>
@@ -2699,9 +2542,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="hqi-b4-J2J"/>
                                                                 </connections>
@@ -2718,9 +2559,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="SuN-rX-XDC"/>
                                                                 </connections>
@@ -2737,9 +2576,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="R9p-yt-WLc"/>
                                                                 </connections>
@@ -2756,9 +2593,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="dU3-zh-Zbe"/>
                                                                 </connections>
@@ -2797,8 +2632,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2817,9 +2651,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="tFQ-8y-0WB"/>
                                                                 </connections>
@@ -2836,9 +2668,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="pLw-dc-1lS"/>
                                                                 </connections>
@@ -2855,9 +2685,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="bGu-HA-wqz"/>
                                                                 </connections>
@@ -2874,9 +2702,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Yh6-Hj-eoz"/>
                                                                 </connections>
@@ -2893,9 +2719,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="6N8-Ni-lsB"/>
                                                                 </connections>
@@ -2935,8 +2759,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -2955,9 +2778,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="mmf-aS-Pvk"/>
                                                                 </connections>
@@ -2974,9 +2795,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="vCL-GN-MOg"/>
                                                                 </connections>
@@ -2993,9 +2812,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="1gu-ur-TAU"/>
                                                                 </connections>
@@ -3012,9 +2829,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="DNL-YE-prb"/>
                                                                 </connections>
@@ -3031,9 +2846,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="tEd-E9-94Z"/>
                                                                 </connections>
@@ -3074,8 +2887,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -3094,9 +2906,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="90n-cO-hrj"/>
                                                                 </connections>
@@ -3113,9 +2923,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="jEr-ju-YZi"/>
                                                                 </connections>
@@ -3132,9 +2940,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="xvk-x1-r17"/>
                                                                 </connections>
@@ -3151,9 +2957,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Kr7-rZ-xBg"/>
                                                                 </connections>
@@ -3170,9 +2974,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="ycq-U7-SVs"/>
                                                                 </connections>
@@ -3500,8 +3302,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -3520,9 +3321,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="cPt-Em-lqH"/>
                                                                 </connections>
@@ -3539,9 +3338,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="778-fT-p4p"/>
                                                                 </connections>
@@ -3558,9 +3355,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="vpP-Z4-nrg"/>
                                                                 </connections>
@@ -3577,9 +3372,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="yYB-LZ-W1H"/>
                                                                 </connections>
@@ -3596,9 +3389,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="PwQ-6E-hzB"/>
                                                                 </connections>
@@ -3641,8 +3432,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -3661,9 +3451,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="kPp-Od-DZ4"/>
                                                                 </connections>
@@ -3680,9 +3468,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Zoc-wu-1OT"/>
                                                                 </connections>
@@ -3699,9 +3485,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Vi3-4k-HyM"/>
                                                                 </connections>
@@ -3718,9 +3502,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="ra7-PM-cOX"/>
                                                                 </connections>
@@ -3737,9 +3519,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="cW7-Ud-uwQ"/>
                                                                 </connections>
@@ -3783,8 +3563,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -3803,9 +3582,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="edb-ot-SBt"/>
                                                                 </connections>
@@ -3822,9 +3599,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="P7A-K4-LEH"/>
                                                                 </connections>
@@ -3841,9 +3616,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="kvo-0x-6fb"/>
                                                                 </connections>
@@ -3860,9 +3633,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="QLn-qF-55B"/>
                                                                 </connections>
@@ -3879,9 +3650,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Fwn-Fp-OsB"/>
                                                                 </connections>
@@ -3926,8 +3695,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" ">
                                                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                                                 </buttonConfiguration>
                                                                 <connections>
@@ -3946,9 +3714,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="xAd-Ku-VZ0"/>
                                                                 </connections>
@@ -3965,9 +3731,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="xDS-gj-jKH"/>
                                                                 </connections>
@@ -3984,9 +3748,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="2wt-1b-m1y"/>
                                                                 </connections>
@@ -4003,9 +3765,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="Ern-wQ-uNA"/>
                                                                 </connections>
@@ -4022,9 +3782,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="44.5"/>
                                                                 <color key="tintColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <state key="normal" title="Button"/>
-                                                                <buttonConfiguration key="configuration" style="plain" image="multiply" catalog="system" title=" ">
-                                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="35"/>
-                                                                </buttonConfiguration>
+                                                                <buttonConfiguration key="configuration" style="plain" title=" "/>
                                                                 <connections>
                                                                     <action selector="fretNoteWillPressed:" destination="ZDa-7r-oJC" eventType="touchUpInside" id="2NU-RI-v6A"/>
                                                                 </connections>

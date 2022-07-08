@@ -379,7 +379,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         super.viewDidLoad()
         
         notes = [
-            // F***ing shit...
+            // F***ing shit...    open G                openD                  Standart            modalD               dropD
             Fret1String1 : [UIImage(named: "D#"), UIImage(named: "D#"), UIImage(named: "F"), UIImage(named: "D#"), UIImage(named: "F")],
             Fret1String2 : [UIImage(named: "C"), UIImage(named: "A#"), UIImage(named: "C"), UIImage(named: "A#"), UIImage(named: "C")],
             Fret1String3 : [UIImage(named: "G#"), UIImage(named: "G"), UIImage(named: "G#"), UIImage(named: "G#"), UIImage(named: "G#")],
