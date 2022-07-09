@@ -23,7 +23,12 @@ func determineNote(_ fretNote: UIButton, onController controller: MainController
 func mark(_ button: UIButton, onController controller: MainControllerDelegate, change: Bool = false) -> Void {
     var imageToSet: UIImage = UIImage(named: "defaultCircle")!
     if change {
-        guard controller.chordProperties.hideNotes == false else { button.setImage(imageToSet, for: .normal); return }
+        guard controller.chordProperties.hideNotes == false else {
+            if !button.hasImage(named: "multiply", for: .normal) {
+                button.setImage(imageToSet, for: .normal)
+            }
+            return
+        }
         if button.hasImage(named: "defaultCircle", for: .normal) ||
             button.hasImage(named: "A", for: .normal) ||
             button.hasImage(named: "A#", for: .normal) ||
@@ -38,18 +43,39 @@ func mark(_ button: UIButton, onController controller: MainControllerDelegate, c
             button.hasImage(named: "G", for: .normal) ||
             button.hasImage(named: "G#", for: .normal)
         {
+            guard !button.hasImage(named: "multiply", for: .normal) else { return }
             switch controller.chordProperties.tuning {
                   /*  In cases: imageToSet = notes[button-sender][image depending on chosen tunnng]  */
             case ChordDataStruct.CDTunning.openGTunning.rawValue:
-                imageToSet = (controller.notes?[button]?[controller.ElementsBase.noteByTunning[.openGTunning]!]!)!
+                if let image = controller.notes?[button]?[controller.ElementsBase.noteByTunning[.openGTunning]!]! {
+                    imageToSet = image
+                } else {
+                    return
+                }
             case ChordDataStruct.CDTunning.openDTunning.rawValue:
-                imageToSet = (controller.notes?[button]?[controller.ElementsBase.noteByTunning[.openDTunning]!]!)!
+                if let image = controller.notes?[button]?[controller.ElementsBase.noteByTunning[.openDTunning]!]! {
+                    imageToSet = image
+                } else {
+                    return
+                }
             case ChordDataStruct.CDTunning.modalDTunning.rawValue:
-                imageToSet = (controller.notes?[button]?[controller.ElementsBase.noteByTunning[.modalDTunning]!]!)!
+                if let image = controller.notes?[button]?[controller.ElementsBase.noteByTunning[.modalDTunning]!]! {
+                    imageToSet = image
+                } else {
+                    return
+                }
             case ChordDataStruct.CDTunning.dropDTunning.rawValue:
-                imageToSet = (controller.notes?[button]?[controller.ElementsBase.noteByTunning[.dropDTunning]!]!)!
+                if let image = controller.notes?[button]?[controller.ElementsBase.noteByTunning[.dropDTunning]!]! {
+                    imageToSet = image
+                } else {
+                    return
+                }
             default:
-                imageToSet = (controller.notes?[button]?[controller.ElementsBase.noteByTunning[.standartETunning]!]!)!
+                if let image = controller.notes?[button]?[controller.ElementsBase.noteByTunning[.standartETunning]!]! {
+                    imageToSet = image
+                } else {
+                    return
+                }
             }
             button.setImage(imageToSet, for: .normal)
         }

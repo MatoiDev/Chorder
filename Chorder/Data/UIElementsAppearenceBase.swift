@@ -36,7 +36,7 @@ struct UIElementsOnWelcomeViewControllerStruct: UIElementsOnWelcomeViewControlle
         ],
         
         ChordDataStruct.CDTunning.openDTunning.rawValue : [
-            "d", "A", "F#", "D", "A", "D"
+            "D", "A", "F#", "D", "A", "D"
         ],
         
         ChordDataStruct.CDTunning.standartETunning.rawValue : [
@@ -44,7 +44,7 @@ struct UIElementsOnWelcomeViewControllerStruct: UIElementsOnWelcomeViewControlle
         ],
         
         ChordDataStruct.CDTunning.modalDTunning.rawValue : [
-            "d", "A", "G", "D", "A", "D"
+            "D", "A", "G", "D", "A", "D"
         ],
         
         ChordDataStruct.CDTunning.dropDTunning.rawValue : [
