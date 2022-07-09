@@ -98,6 +98,7 @@ func mark(_ button: UIButton, onController controller: MainControllerDelegate, c
             if controller.fretPunch!.contains(button) {
                 button.setImage(UIImage(systemName: "multiply"), for: .normal)
             } else {
+                setCross(onNote: button, controller: controller)
                 button.setImage(UIImage(), for: .normal)
             }
         } else if button.hasImage(named: "multiply", for: .normal) {
@@ -172,6 +173,15 @@ func resetOtherNotes(onString string: Int, exceptFret exFret: Int, controller: M
         controller.guitarStanOn![0][string].setImage(UIImage(named: "defaultPunchImage"), for: .normal)
     }
     
+}
+
+private func setCross(onNote note: UIButton, controller: MainControllerDelegate) -> Void {
+    if controller.allFrets1String!.contains(note) { controller.fretPunch![0].setImage(UIImage(systemName: "multiply"), for: .normal) }
+    else if controller.allFrets2String!.contains(note) {controller.fretPunch![1].setImage(UIImage(systemName: "multiply"), for: .normal) }
+    else if controller.allFrets3String!.contains(note) { controller.fretPunch![2].setImage(UIImage(systemName: "multiply"), for: .normal) }
+    else if controller.allFrets4String!.contains(note) { controller.fretPunch![3].setImage(UIImage(systemName: "multiply"), for: .normal) }
+    else if controller.allFrets5String!.contains(note) { controller.fretPunch![4].setImage(UIImage(systemName: "multiply"), for: .normal) }
+    else if controller.allFrets6String!.contains(note) { controller.fretPunch![5].setImage(UIImage(systemName: "multiply"), for: .normal) }
 }
 
 
