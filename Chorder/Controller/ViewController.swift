@@ -11,11 +11,13 @@ import CoreData
 
 protocol MainControllerDelegate {
     
-    var eachFretLabels: [UILabel]? { get }
+    var chordProperties: ChordSettings! { get set }
     
+    var eachFretLabels: [UILabel]? { get }
     var fretLabels: [UILabel]? { get }
     var onPunchTunningLabels: [UILabel]? { get }
     
+    var fretPunch: [UIButton]? { get }
     var fret1strings: [UIButton]? { get }
     var fret2strings: [UIButton]? { get }
     var fret3strings: [UIButton]? { get }
@@ -41,10 +43,22 @@ protocol MainControllerDelegate {
     var fret23strings: [UIButton]? { get }
     var fret24strings: [UIButton]? { get }
     
+    var allFrets1String : [UIButton]? { get }
+    var allFrets2String : [UIButton]? { get }
+    var allFrets3String : [UIButton]? { get }
+    var allFrets4String : [UIButton]? { get }
+    var allFrets5String : [UIButton]? { get }
+    var allFrets6String : [UIButton]? { get }
+    
     var guitarStanOn : [[UIButton]]? { get }
-    
     var notes : [UIButton : [UIImage?]]? { get }
+    var ElementsBase : UIElementsOnWelcomeViewControllerStruct { get }
+    var selectedNotes : [Int : UIButton?] { get set }
     
+    func setNote(toString string: Int, value: UIButton) -> Void
+    
+//    func updateTunningList(withIndex index: Int) -> Void
+
 }
 
 
@@ -57,6 +71,15 @@ class CDViewController: UIViewController, MainControllerDelegate {
     
     
     /* ———————————————————————————— Strings By Fret ———————————————————————————— */
+    
+    // Punch strings
+    
+    @IBOutlet weak var PunchString1: UIButton!
+    @IBOutlet weak var PunchString2: UIButton!
+    @IBOutlet weak var PunchString3: UIButton!
+    @IBOutlet weak var PunchString4: UIButton!
+    @IBOutlet weak var PunchString5: UIButton!
+    @IBOutlet weak var PunchString6: UIButton!
     
     // 1 Fret
     
@@ -335,12 +358,30 @@ class CDViewController: UIViewController, MainControllerDelegate {
     var guitarStanOn: [[UIButton]]? = nil
     
     var notes: [UIButton : [UIImage?]]? = nil
+    var selectedNotes: [Int : UIButton?] = [
+        
+        1 : UIButton(),
+        2 : UIButton(),
+        3 : UIButton(),
+        4 : UIButton(),
+        5 : UIButton(),
+        6 : UIButton()
+        
+]
+    
+    var allFrets1String : [UIButton]? = nil
+    var allFrets2String : [UIButton]? = nil
+    var allFrets3String : [UIButton]? = nil
+    var allFrets4String : [UIButton]? = nil
+    var allFrets5String : [UIButton]? = nil
+    var allFrets6String : [UIButton]? = nil
     
     /* ——————————————————————————————————————————————————————————— */
     
     
     /* ———————————————— Notes COntainers By Fret ————————————————— */
     
+    var fretPunch: [UIButton]? = nil
     var fret1strings : [UIButton]? = nil
     var fret2strings : [UIButton]? = nil
     var fret3strings : [UIButton]? = nil
@@ -380,6 +421,14 @@ class CDViewController: UIViewController, MainControllerDelegate {
         
         notes = [
             // F***ing shit...    open G                openD                  Standart            modalD               dropD
+            
+            PunchString1 : [UIImage(named: "D"), UIImage(named: "D"), UIImage(named: "E"), UIImage(named: "D"),  UIImage(named: "E")],
+            PunchString2 : [UIImage(named: "B"), UIImage(named: "A"), UIImage(named: "B"), UIImage(named: "A"),  UIImage(named: "B")],
+            PunchString3 : [UIImage(named: "G"), UIImage(named: "F#"), UIImage(named: "G"), UIImage(named: "G"),  UIImage(named: "G")],
+            PunchString4 : [UIImage(named: "D"), UIImage(named: "D"), UIImage(named: "D"), UIImage(named: "D"),  UIImage(named: "D")],
+            PunchString5 : [UIImage(named: "G"), UIImage(named: "A"), UIImage(named: "A"), UIImage(named: "A"),  UIImage(named: "A")],
+            PunchString6 : [UIImage(named: "D"), UIImage(named: "D"), UIImage(named: "E"), UIImage(named: "D"),  UIImage(named: "D")],
+            
             Fret1String1 : [UIImage(named: "D#"), UIImage(named: "D#"), UIImage(named: "F"), UIImage(named: "D#"), UIImage(named: "F")],
             Fret1String2 : [UIImage(named: "C"), UIImage(named: "A#"), UIImage(named: "C"), UIImage(named: "A#"), UIImage(named: "C")],
             Fret1String3 : [UIImage(named: "G#"), UIImage(named: "G"), UIImage(named: "G#"), UIImage(named: "G#"), UIImage(named: "G#")],
@@ -550,7 +599,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
             
         ]
         
-        
+        fretPunch = [ PunchString1, PunchString2, PunchString3, PunchString4, PunchString5, PunchString6]
         fret1strings = [ Fret1String1, Fret1String2, Fret1String3, Fret1String4, Fret1String5, Fret1String6 ]
         fret2strings = [ Fret2String1, Fret2String2, Fret2String3, Fret2String4, Fret2String5, Fret2String6 ]
         fret3strings = [ Fret3String1, Fret3String2, Fret3String3, Fret3String4, Fret3String5, Fret3String6 ]
@@ -576,7 +625,164 @@ class CDViewController: UIViewController, MainControllerDelegate {
         fret23strings = [ Fret23String1, Fret23String2, Fret23String3, Fret23String4, Fret23String5, Fret23String6 ]
         fret24strings = [ Fret24String1, Fret24String2, Fret24String3, Fret24String4, Fret24String5, Fret24String6 ]
         
-        guitarStanOn = [fret1strings!, fret2strings!, fret3strings!,
+        allFrets1String = [PunchString1,
+                           Fret1String1,
+                           Fret2String1,
+                           Fret3String1,
+                           Fret4String1,
+                           Fret5String1,
+                           Fret6String1,
+                           Fret7String1,
+                           Fret8String1,
+                           Fret9String1,
+                           Fret10String1,
+                           Fret11String1,
+                           Fret12String1,
+                           Fret13String1,
+                           Fret14String1,
+                           Fret15String1,
+                           Fret16String1,
+                           Fret17String1,
+                           Fret18String1,
+                           Fret19String1,
+                           Fret20String1,
+                           Fret21String1,
+                           Fret22String1,
+                           Fret23String1,
+                           Fret24String1]
+        
+        allFrets2String = [PunchString2,
+                           Fret1String2,
+                           Fret2String2,
+                           Fret3String2,
+                           Fret4String2,
+                           Fret5String2,
+                           Fret6String2,
+                           Fret7String2,
+                           Fret8String2,
+                           Fret9String2,
+                           Fret10String2,
+                           Fret11String2,
+                           Fret12String2,
+                           Fret13String2,
+                           Fret14String2,
+                           Fret15String2,
+                           Fret16String2,
+                           Fret17String2,
+                           Fret18String2,
+                           Fret19String2,
+                           Fret20String2,
+                           Fret21String2,
+                           Fret22String2,
+                           Fret23String2,
+                           Fret24String2]
+        
+        allFrets3String = [PunchString3,
+                           Fret1String3,
+                           Fret2String3,
+                           Fret3String3,
+                           Fret4String3,
+                           Fret5String3,
+                           Fret6String3,
+                           Fret7String3,
+                           Fret8String3,
+                           Fret9String3,
+                           Fret10String3,
+                           Fret11String3,
+                           Fret12String3,
+                           Fret13String3,
+                           Fret14String3,
+                           Fret15String3,
+                           Fret16String3,
+                           Fret17String3,
+                           Fret18String3,
+                           Fret19String3,
+                           Fret20String3,
+                           Fret21String3,
+                           Fret22String3,
+                           Fret23String3,
+                           Fret24String3]
+        
+        allFrets4String = [PunchString4,
+                           Fret1String4,
+                           Fret2String4,
+                           Fret3String4,
+                           Fret4String4,
+                           Fret5String4,
+                           Fret6String4,
+                           Fret7String4,
+                           Fret8String4,
+                           Fret9String4,
+                           Fret10String4,
+                           Fret11String4,
+                           Fret12String4,
+                           Fret13String4,
+                           Fret14String4,
+                           Fret15String4,
+                           Fret16String4,
+                           Fret17String4,
+                           Fret18String4,
+                           Fret19String4,
+                           Fret20String4,
+                           Fret21String4,
+                           Fret22String4,
+                           Fret23String4,
+                           Fret24String4]
+        
+        allFrets5String = [PunchString5,
+                           Fret1String5,
+                           Fret2String5,
+                           Fret3String5,
+                           Fret4String5,
+                           Fret5String5,
+                           Fret6String5,
+                           Fret7String5,
+                           Fret8String5,
+                           Fret9String5,
+                           Fret10String5,
+                           Fret11String5,
+                           Fret12String5,
+                           Fret13String5,
+                           Fret14String5,
+                           Fret15String5,
+                           Fret16String5,
+                           Fret17String5,
+                           Fret18String5,
+                           Fret19String5,
+                           Fret20String5,
+                           Fret21String5,
+                           Fret22String5,
+                           Fret23String5,
+                           Fret24String5]
+        
+        allFrets6String = [PunchString6,
+                           Fret1String6,
+                           Fret2String6,
+                           Fret3String6,
+                           Fret4String6,
+                           Fret5String6,
+                           Fret6String6,
+                           Fret7String6,
+                           Fret8String6,
+                           Fret9String6,
+                           Fret10String6,
+                           Fret11String6,
+                           Fret12String6,
+                           Fret13String6,
+                           Fret14String6,
+                           Fret15String6,
+                           Fret16String6,
+                           Fret17String6,
+                           Fret18String6,
+                           Fret19String6,
+                           Fret20String6,
+                           Fret21String6,
+                           Fret22String6,
+                           Fret23String6,
+                           Fret24String6]
+        
+        guitarStanOn = [fretPunch!,
+                        fret1strings!, fret2strings!, fret3strings!,
                         fret4strings!, fret5strings!, fret6strings!,
                         fret7strings!, fret8strings!, fret9strings!,
                         fret10strings!, fret11strings!, fret12strings!,
@@ -622,6 +828,11 @@ class CDViewController: UIViewController, MainControllerDelegate {
         TunningView.text = withText
     }
     
+//    func updateTunningList(withIndex index: Int) -> Void {
+//        selectedNotes!.remove(at: index)
+//        print(Set(selectedNotes!).count)
+//    }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
     }
@@ -653,14 +864,19 @@ class CDViewController: UIViewController, MainControllerDelegate {
         setTextFieldConfiguration(for: &TunningView, withText: textForTunningTextField!)
         setLablesOfFretsConfiguration(withStyle: chordProperties.fretsStyle!, controller: self)
         setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
+        updateNotes(onController: self)
         
     }
     
     @IBAction func fretNoteWillPressed(_ sender: UIButton) {
         
+        pushNote(sender, controller: self)
         fretNoteHasPressed(sender, onController: self)
         
-        
+    }
+    
+    func setNote(toString string: Int, value: UIButton) -> Void {
+        selectedNotes[string] = value
     }
 
     

@@ -14,6 +14,7 @@ protocol UIElementsOnWelcomeViewControllerStructProtocol {
     var fretsDesignations : [ChordDataStruct.CDFretsStyles.RawValue : [String]] { get }
     var onPunchLabelsTunningsDesignations : [ChordDataStruct.CDTunning.RawValue : [String]] { get }
     
+    var noteByTunning : [ChordDataStruct.CDTunning : Int] { get }
     
 }
 
@@ -76,6 +77,16 @@ struct UIElementsOnWelcomeViewControllerStruct: UIElementsOnWelcomeViewControlle
                 "10", "11", "12", "13", "14", "15", "16", "17",
                 "18", "19", "20", "21", "22", "23", "24"
         ]
+    ]
+    
+    var noteByTunning: [ChordDataStruct.CDTunning : Int] = [
+        
+        .openGTunning : 0,
+        .openDTunning : 1,
+        .standartETunning : 2,
+        .modalDTunning : 3,
+        .dropDTunning : 4
+        
     ]
     
 }
