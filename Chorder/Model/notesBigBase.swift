@@ -43,7 +43,11 @@ let ChordBySequenceOfNotes : [String : String] =  [
     "D#A#G" : "D#",
     "EBG#" : "E",
     "EAC" : "Am",
-    "EBG" : "Em"
+    "EBG" : "Em",
+    "BEG" : "Em",
+    "CE" : "C",
+    "ADF#" : "D",
+    "ADF" : "Dm"
     
     
 ]
