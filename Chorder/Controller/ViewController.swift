@@ -824,8 +824,12 @@ class CDViewController: UIViewController, MainControllerDelegate {
         
     }
     
-    func setTextToTunningfield(withText: String) -> Void {
-        TunningView.text = withText
+    func setTextToTunningfield(withText txt: String) -> Void {
+        TunningView.text = txt
+    }
+    
+    func setTextForChordTextField(withText txt: String = "...") -> Void {
+        ChordTextField.text = txt
     }
     
 //    func updateTunningList(withIndex index: Int) -> Void {
@@ -865,6 +869,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         setLablesOfFretsConfiguration(withStyle: chordProperties.fretsStyle!, controller: self)
         setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
         updateNotes(onController: self)
+        updateChordInfo(withNotes: selectedNotes)
         
     }
     
@@ -872,7 +877,93 @@ class CDViewController: UIViewController, MainControllerDelegate {
         
         pushNote(sender, controller: self)
         fretNoteHasPressed(sender, onController: self)
+        updateChordInfo(withNotes: selectedNotes)
         
+    }
+    
+    func updateChordInfo(withNotes: [Int : UIButton?]) -> Void {
+        var res: String = ""
+        var jail = [String]()
+        
+        for i in stride(from: 6, to: 1, by: -1) {
+            if let nameOfImage = getImageName(ofNote: selectedNotes[i]!!, ind: i) {
+                if !jail.contains(nameOfImage) {
+                    jail.append(nameOfImage)
+                    res.append(nameOfImage)
+                }
+            }
+        }
+        if let res = ChordBySequenceOfNotes[res] {
+            setTextForChordTextField(withText: res)
+        } else {
+            setTextForChordTextField()
+        }
+    }
+    
+    func getImageName(ofNote note: UIButton, ind: Int) -> String? {
+        
+        if note.hasImage(named: "A", for: .normal) { return "A" }
+        else if note.hasImage(named: "A#", for: .normal) { return "A#" }
+        else if note.hasImage(named: "B", for: .normal) { return "B" }
+        else if note.hasImage(named: "C", for: .normal) { return "C" }
+        else if note.hasImage(named: "C#", for: .normal) { return "C#" }
+        else if note.hasImage(named: "D", for: .normal) { return "D" }
+        else if note.hasImage(named: "D#", for: .normal) { return "D#" }
+        else if note.hasImage(named: "E", for: .normal) { return "E" }
+        else if note.hasImage(named: "F", for: .normal) { return "F" }
+        else if note.hasImage(named: "F#", for: .normal) { return "F#" }
+        else if note.hasImage(named: "G", for: .normal) { return "G" }
+        else if note.hasImage(named: "G#", for: .normal) { return "G#" }
+        else if note.hasImage(named: "defaultPunchImage", for: .normal) { return "defaultPunchImage" }
+        else if note.hasImage(named: "defaultCircle", for: .normal) {
+            guard forcedImageGetter(withButton: note, ind: ind) != "nil" else { selectedNotes[ind]! = UIButton(); return nil }
+            return forcedImageGetter(withButton: note, ind: ind)
+        }
+        selectedNotes[ind]! = UIButton()
+        return nil
+    }
+    
+    // give me an oscar for solving this problem
+    private func forcedImageGetter(withButton note: UIButton, ind: Int) -> String {
+
+        let temporaryButton = UIButton()
+        var imageToSet: UIImage
+        switch chordProperties.tuning {
+        case ChordDataStruct.CDTunning.openGTunning.rawValue:
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.openGTunning]!]! {
+                imageToSet = image
+            } else {
+                return "nil"
+            }
+        case ChordDataStruct.CDTunning.openDTunning.rawValue:
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.openDTunning]!]! {
+                imageToSet = image
+            } else {
+                return "nil"
+            }
+        case ChordDataStruct.CDTunning.modalDTunning.rawValue:
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.modalDTunning]!]! {
+                imageToSet = image
+            } else {
+                return "nil"
+            }
+        case ChordDataStruct.CDTunning.dropDTunning.rawValue:
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.dropDTunning]!]! {
+                imageToSet = image
+            } else {
+                return "nil"
+            }
+        default:
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.standartETunning]!]! {
+                imageToSet = image
+            } else {
+                return "nil"
+            }
+        }
+        
+        
+        temporaryButton.setImage(imageToSet, for: .normal)
+        return getImageName(ofNote: temporaryButton, ind: ind)!
     }
     
     func setNote(toString string: Int, value: UIButton) -> Void {

@@ -16,6 +16,7 @@
 		9A26E4762867776800E9CAB5 /* GuitarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E4752867776800E9CAB5 /* GuitarPicker.swift */; };
 		9A26E4782867780800E9CAB5 /* FretsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E4772867780800E9CAB5 /* FretsPicker.swift */; };
 		9A2C07D428777F0100E601A2 /* FretsCobweb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C07D328777F0100E601A2 /* FretsCobweb.swift */; };
+		9A51E193287B29D900A44FF7 /* notesBigBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51E192287B29D900A44FF7 /* notesBigBase.swift */; };
 		9ABEEADB286347CC00EF6DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */; };
 		9ABEEADD286347CC00EF6DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */; };
 		9ABEEADF286347CC00EF6DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADE286347CC00EF6DD7 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 		9A26E4752867776800E9CAB5 /* GuitarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarPicker.swift; sourceTree = "<group>"; };
 		9A26E4772867780800E9CAB5 /* FretsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsPicker.swift; sourceTree = "<group>"; };
 		9A2C07D328777F0100E601A2 /* FretsCobweb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsCobweb.swift; sourceTree = "<group>"; };
+		9A51E192287B29D900A44FF7 /* notesBigBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesBigBase.swift; sourceTree = "<group>"; };
 		9ABEEAD7286347CC00EF6DD7 /* Chorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				9AEC859F286507EC0012676D /* Delegates */,
 				9A2C07D328777F0100E601A2 /* FretsCobweb.swift */,
+				9A51E192287B29D900A44FF7 /* notesBigBase.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				9ABEEADF286347CC00EF6DD7 /* ViewController.swift in Sources */,
 				9A26E4762867776800E9CAB5 /* GuitarPicker.swift in Sources */,
 				9AEC859E286507060012676D /* UIElementsConfiguration.swift in Sources */,
+				9A51E193287B29D900A44FF7 /* notesBigBase.swift in Sources */,
 				9A24278F28665D8E009EB1F0 /* SettingsViewController.swift in Sources */,
 				9ABEEADB286347CC00EF6DD7 /* AppDelegate.swift in Sources */,
 				9A2C07D428777F0100E601A2 /* FretsCobweb.swift in Sources */,

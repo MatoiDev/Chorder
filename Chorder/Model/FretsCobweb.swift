@@ -1,3 +1,10 @@
+//
+//  FretsCobWeb.swift
+//  Chorder
+//
+//  Created by AppleWorm on 07.07.2022.
+//
+
 import Foundation
 import UIKit
 
@@ -139,8 +146,8 @@ func mark(_ button: UIButton, onController controller: MainControllerDelegate, c
             button.setImage(imageToSet, for: .normal)
         }
     }
-    
 }
+
 
 func pushNote(_ note: UIButton, controller: MainControllerDelegate) -> Void {
     if controller.allFrets1String!.contains(note) { controller.setNote(toString: 1, value: note) }
