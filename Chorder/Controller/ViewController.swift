@@ -885,7 +885,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         var res: String = ""
         var jail = [String]()
         
-        for i in stride(from: 6, to: 1, by: -1) {
+        for i in stride(from: 6, to: 0, by: -1) {
             if let nameOfImage = getImageName(ofNote: selectedNotes[i]!!, ind: i) {
                 if !jail.contains(nameOfImage) {
                     jail.append(nameOfImage)
@@ -893,6 +893,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
                 }
             }
         }
+        print(res)
         if let res = ChordBySequenceOfNotes[res] {
             setTextForChordTextField(withText: res)
         } else {
