@@ -2,7 +2,7 @@
 
 # Instruction
 
-<img src="/githubAssets/instruction.png">
+<img src="/githubAssets/instruction.jpg">
 
 # English:
 
