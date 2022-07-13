@@ -936,31 +936,31 @@ class CDViewController: UIViewController, MainControllerDelegate {
         var imageToSet: UIImage
         switch chordProperties.tuning {
         case ChordDataStruct.CDTunning.openGTunning.rawValue:
-            if let image = notes?[note]?[ElementsBase.noteByTunning[.openGTunning]!]! {
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.openGTunning]!] {
                 imageToSet = image
             } else {
                 return "nil"
             }
         case ChordDataStruct.CDTunning.openDTunning.rawValue:
-            if let image = notes?[note]?[ElementsBase.noteByTunning[.openDTunning]!]! {
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.openDTunning]!] {
                 imageToSet = image
             } else {
                 return "nil"
             }
         case ChordDataStruct.CDTunning.modalDTunning.rawValue:
-            if let image = notes?[note]?[ElementsBase.noteByTunning[.modalDTunning]!]! {
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.modalDTunning]!] {
                 imageToSet = image
             } else {
                 return "nil"
             }
         case ChordDataStruct.CDTunning.dropDTunning.rawValue:
-            if let image = notes?[note]?[ElementsBase.noteByTunning[.dropDTunning]!]! {
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.dropDTunning]!] {
                 imageToSet = image
             } else {
                 return "nil"
             }
         default:
-            if let image = notes?[note]?[ElementsBase.noteByTunning[.standartETunning]!]! {
+            if let image = notes?[note]?[ElementsBase.noteByTunning[.standartETunning]!] {
                 imageToSet = image
             } else {
                 return "nil"
