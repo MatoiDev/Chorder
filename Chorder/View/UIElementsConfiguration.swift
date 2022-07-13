@@ -43,6 +43,17 @@ func setLabelTextConfiguration(for label: inout UILabel) -> Void {
     
 }
 
+func setGuitarStan(withStyle style: String, guitar: UIImageView) -> Void {
+    switch style {
+    case ChordDataStruct.CDGuitarType.lesPaulGuitarType.rawValue:
+        guitar.image = UIImage(named: "LesPaulStan")
+    case ChordDataStruct.CDGuitarType.superstratGuitarType.rawValue:
+        guitar.image = UIImage(named: "SuperstratStan")
+    default:
+        guitar.image = UIImage(named: "Stan")
+    }
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------------- */
 
 func setTunningLabelsOnPunchBoard(withTunning tunning: String, controller: MainControllerDelegate) -> Void {

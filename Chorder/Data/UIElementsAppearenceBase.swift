@@ -13,6 +13,7 @@ protocol UIElementsOnWelcomeViewControllerStructProtocol {
     
     var fretsDesignations : [ChordDataStruct.CDFretsStyles.RawValue : [String]] { get }
     var onPunchLabelsTunningsDesignations : [ChordDataStruct.CDTunning.RawValue : [String]] { get }
+//    var stanByRequest : [ChordDataStruct.CDGuitarType.RawValue : [String]] { get }
     
     var noteByTunning : [ChordDataStruct.CDTunning : Int] { get }
     
@@ -20,6 +21,10 @@ protocol UIElementsOnWelcomeViewControllerStructProtocol {
 
 
 struct UIElementsOnWelcomeViewControllerStruct: UIElementsOnWelcomeViewControllerStructProtocol {
+//    var stanByRequest: [ChordDataStruct.CDGuitarType.RawValue : String] = [
+//
+//    ]
+    
     
     var TunningFieldText : [ChordDataStruct.CDTunning.RawValue : String] = [
         "standartETunning" : "standart E",

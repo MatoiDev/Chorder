@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -308,6 +309,39 @@
                 <exit id="zfZ-zv-EtN" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2164.2857142857142" y="200.00000000000003"/>
+        </scene>
+        <!--Info Table View Controller-->
+        <scene sceneID="2x1-ou-hKc">
+            <objects>
+                <tableViewController id="yfG-aN-qVO" customClass="InfoTableViewController" customModule="Chorder" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="OQM-oE-0jd">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Z5g-6V-Krc">
+                            <rect key="frame" x="0.0" y="0.0" width="896" height="62"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.78823530669999997" green="0.70588237050000002" blue="0.86666667460000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eLm-Eu-f6F">
+                                <rect key="frame" x="0.0" y="106.5" width="896" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLm-Eu-f6F" id="Tga-XF-4wG">
+                                    <rect key="frame" x="44" y="0.0" width="808" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yfG-aN-qVO" id="ZGr-pt-pxI"/>
+                            <outlet property="delegate" destination="yfG-aN-qVO" id="DZV-cf-XlL"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EvF-cp-WSb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2978.5714285714284" y="200.00000000000003"/>
         </scene>
         <!--Main-->
         <scene sceneID="pNz-Fv-QhU">
@@ -4209,6 +4243,7 @@
                         <outlet property="SCNDStringPunchLabel" destination="NYJ-FY-iNg" id="4VV-GQ-Q2r"/>
                         <outlet property="SIXTHStringPunchLabel" destination="Xg5-3a-IOY" id="O2C-xx-GGZ"/>
                         <outlet property="SettingsButton" destination="RMj-Nl-pBh" id="aYg-tq-mwF"/>
+                        <outlet property="Stan" destination="JKv-nn-q9M" id="z3T-Vr-9Xj"/>
                         <outlet property="THRDStringPunchLabel" destination="aKX-Ad-P56" id="Jft-l4-yjM"/>
                         <outlet property="TunningView" destination="PeO-G8-4vH" id="onm-gr-pPC"/>
                         <outlet property="fret1" destination="Iti-2R-682" id="KgU-1a-19f"/>
@@ -4256,5 +4291,8 @@
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
         <image name="repeat.circle" catalog="system" width="128" height="121"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

@@ -348,6 +348,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
     @IBOutlet var ChordTextField: UITextField!
     @IBOutlet var SettingsButton: UIButton!
     @IBOutlet var InfoButton: UIButton!
+    @IBOutlet weak var Stan: UIImageView!
     
     var textForTunningTextField: String? = nil
     
@@ -866,6 +867,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         
         textForTunningTextField = ElementsBase.TunningFieldText[chordProperties.tuning!]
         setTextFieldConfiguration(for: &TunningView, withText: textForTunningTextField!)
+        setGuitarStan(withStyle: chordProperties.guitarType!, guitar: Stan)
         setLablesOfFretsConfiguration(withStyle: chordProperties.fretsStyle!, controller: self)
         setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
         updateNotes(onController: self)

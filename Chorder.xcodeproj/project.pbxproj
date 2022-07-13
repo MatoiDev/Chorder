@@ -17,12 +17,14 @@
 		9A26E4782867780800E9CAB5 /* FretsPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E4772867780800E9CAB5 /* FretsPicker.swift */; };
 		9A2C07D428777F0100E601A2 /* FretsCobweb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C07D328777F0100E601A2 /* FretsCobweb.swift */; };
 		9A51E193287B29D900A44FF7 /* notesBigBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A51E192287B29D900A44FF7 /* notesBigBase.swift */; };
+		9A72B085287EFF00000B9E33 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A72B084287EFF00000B9E33 /* InfoTableViewController.swift */; };
 		9ABEEADB286347CC00EF6DD7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */; };
 		9ABEEADD286347CC00EF6DD7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */; };
 		9ABEEADF286347CC00EF6DD7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEADE286347CC00EF6DD7 /* ViewController.swift */; };
 		9ABEEAE2286347CC00EF6DD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE0286347CC00EF6DD7 /* Main.storyboard */; };
 		9ABEEAE5286347CC00EF6DD7 /* Chorder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE3286347CC00EF6DD7 /* Chorder.xcdatamodeld */; };
 		9ABEEAE7286347CC00EF6DD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ABEEAE6286347CC00EF6DD7 /* Assets.xcassets */; };
+		9AC1D152287E15E3007350BD /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AC1D151287E15E3007350BD /* Launch Screen.storyboard */; };
 		9AEC859C286503C00012676D /* UIElementsAppearenceBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC859B286503C00012676D /* UIElementsAppearenceBase.swift */; };
 		9AEC859E286507060012676D /* UIElementsConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEC859D286507060012676D /* UIElementsConfiguration.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +40,7 @@
 		9A26E4772867780800E9CAB5 /* FretsPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsPicker.swift; sourceTree = "<group>"; };
 		9A2C07D328777F0100E601A2 /* FretsCobweb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FretsCobweb.swift; sourceTree = "<group>"; };
 		9A51E192287B29D900A44FF7 /* notesBigBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesBigBase.swift; sourceTree = "<group>"; };
+		9A72B084287EFF00000B9E33 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 		9ABEEAD7286347CC00EF6DD7 /* Chorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ABEEADA286347CC00EF6DD7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9ABEEADC286347CC00EF6DD7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		9ABEEAE4286347CC00EF6DD7 /* Chorder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chorder.xcdatamodel; sourceTree = "<group>"; };
 		9ABEEAE6286347CC00EF6DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ABEEAEB286347CC00EF6DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AC1D151287E15E3007350BD /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9AEC859B286503C00012676D /* UIElementsAppearenceBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsAppearenceBase.swift; sourceTree = "<group>"; };
 		9AEC859D286507060012676D /* UIElementsConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIElementsConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +73,7 @@
 				9A26E4772867780800E9CAB5 /* FretsPicker.swift */,
 				9A26E4752867776800E9CAB5 /* GuitarPicker.swift */,
 				9ABEEAE0286347CC00EF6DD7 /* Main.storyboard */,
+				9AC1D151287E15E3007350BD /* Launch Screen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 			children = (
 				9ABEEADE286347CC00EF6DD7 /* ViewController.swift */,
 				9A24278E28665D8E009EB1F0 /* SettingsViewController.swift */,
+				9A72B084287EFF00000B9E33 /* InfoTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -201,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC1D152287E15E3007350BD /* Launch Screen.storyboard in Resources */,
 				9ABEEAE7286347CC00EF6DD7 /* Assets.xcassets in Resources */,
 				9ABEEAE2286347CC00EF6DD7 /* Main.storyboard in Resources */,
 			);
@@ -226,6 +233,7 @@
 				9A08FCD92863BEDE008C9ADF /* ChordDataStructs.swift in Sources */,
 				9A26E47428674A0400E9CAB5 /* TunningPicker.swift in Sources */,
 				9A08FCE12863C2F7008C9ADF /* ChordSettings+CoreDataProperties.swift in Sources */,
+				9A72B085287EFF00000B9E33 /* InfoTableViewController.swift in Sources */,
 				9A08FCD72863BC5A008C9ADF /* ChordDataStorageManager.swift in Sources */,
 				9A26E4782867780800E9CAB5 /* FretsPicker.swift in Sources */,
 				9ABEEAE5286347CC00EF6DD7 /* Chorder.xcdatamodeld in Sources */,
