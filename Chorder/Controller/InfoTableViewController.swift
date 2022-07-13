@@ -9,26 +9,49 @@ import UIKit
 
 class InfoTableViewController: UITableViewController {
 
+    
+    @IBOutlet weak var gitHubSender: UIButton!
+    @IBOutlet weak var telegramSender: UIButton!
+    @IBOutlet weak var VKSender: UIButton!
+    @IBOutlet weak var logoBlur: UIVisualEffectView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        logoBlur.alpha = 1
+        logoBlur.isOpaque = false
+    
     }
 
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        UIView.animate(withDuration: 0.7) {
+            self.logoBlur.alpha = 0
+        }
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIView.animate(withDuration: 0.1) {
+            self.logoBlur.alpha = 1
+        }
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 0
+        return 2
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        switch section {
+        case 0:
+            return 1
+        default:
+            return 2
+        }
     }
 
     /*
@@ -85,5 +108,22 @@ class InfoTableViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func goBack(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func goTo(_ sender: UIButton) {
+        let VKURL = URL(string: "https://vk.com/f4ther_of_all")!
+        let GitHubURL = URL(string: "https://github.com/AppIeWorm/Chorder")!
+        let TelegramURL = URL(string: "https://t.me/Uncle_Milty")!
+        
+        if sender == VKSender {
+            UIApplication.shared.open(VKURL, options: [:], completionHandler: nil)
+        } else if sender == telegramSender {
+            UIApplication.shared.open(TelegramURL, options: [:], completionHandler: nil)
+        } else {
+            UIApplication.shared.open(GitHubURL, options: [:], completionHandler: nil)
+        }
+    }
+    
 }

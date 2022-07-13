@@ -70,7 +70,7 @@
                                                         <fragment content="Settings">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                                <font key="NSFont" size="29" name="AmericanTypewriter-Semibold"/>
+                                                                <font key="NSFont" size="29" name="Helvetica-Bold"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -228,7 +228,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show notes:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TG0-5e-0vC">
                                                 <rect key="frame" x="15" y="15" width="662" height="45"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="752" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vhe-jb-5sp">
@@ -314,34 +314,195 @@
         <scene sceneID="2x1-ou-hKc">
             <objects>
                 <tableViewController id="yfG-aN-qVO" customClass="InfoTableViewController" customModule="Chorder" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="OQM-oE-0jd">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" bouncesZoom="NO" dataMode="static" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="OQM-oE-0jd">
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.9098039269" green="0.87843137979999997" blue="0.81176471709999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="sectionIndexBackgroundColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="Z5g-6V-Krc">
-                            <rect key="frame" x="0.0" y="0.0" width="896" height="62"/>
+                            <rect key="frame" x="0.0" y="0.0" width="896" height="100"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C92-b5-cMH">
+                                    <rect key="frame" x="52" y="8" width="100" height="84"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="pWN-Nc-aKi"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="chevron.backward" catalog="system" title=" ">
+                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="27"/>
+                                        <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <segue destination="kcG-D5-IUq" kind="unwind" identifier="isConfirm" unwindAction="unwindToFirstScreen:" id="dnz-pw-dhd"/>
+                                    </connections>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleAspectFit" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7cm-H9-qO1">
+                                    <rect key="frame" x="295" y="0.0" width="306" height="100"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ChorderIpaIcon" translatesAutoresizingMaskIntoConstraints="NO" id="92I-rN-gtX">
+                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="T5r-oI-ViM"/>
+                                                <constraint firstAttribute="width" constant="100" id="c6R-in-MDm"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chorder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HM3-Jo-q4M">
+                                            <rect key="frame" x="100" y="19.5" width="206" height="61.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="206" id="Jd8-IU-BHR"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="GeezaPro-Bold" family="Geeza Pro" pointSize="50"/>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="100" id="ADi-uH-Jap"/>
+                                        <constraint firstItem="HM3-Jo-q4M" firstAttribute="leading" secondItem="92I-rN-gtX" secondAttribute="trailing" id="ihg-Aj-nAK"/>
+                                        <constraint firstAttribute="width" constant="306" id="uTT-yo-lAz"/>
+                                    </constraints>
+                                </stackView>
+                                <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R70-WC-QkF">
+                                    <rect key="frame" x="0.0" y="0.0" width="896" height="100"/>
+                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="v9C-9G-eSb">
+                                        <rect key="frame" x="0.0" y="0.0" width="896" height="100"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </view>
+                                    <blurEffect style="regular"/>
+                                </visualEffectView>
+                            </subviews>
                             <color key="backgroundColor" red="0.78823530669999997" green="0.70588237050000002" blue="0.86666667460000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="R70-WC-QkF" secondAttribute="bottom" id="7E4-bf-jAl"/>
+                                <constraint firstItem="7cm-H9-qO1" firstAttribute="centerX" secondItem="Z5g-6V-Krc" secondAttribute="centerX" id="CF2-fb-bMp"/>
+                                <constraint firstAttribute="trailing" secondItem="R70-WC-QkF" secondAttribute="trailing" id="Cez-O9-hz6"/>
+                                <constraint firstItem="C92-b5-cMH" firstAttribute="top" secondItem="Z5g-6V-Krc" secondAttribute="topMargin" id="LkD-eh-k5q"/>
+                                <constraint firstItem="C92-b5-cMH" firstAttribute="bottom" secondItem="Z5g-6V-Krc" secondAttribute="bottomMargin" id="MD5-kJ-2Do"/>
+                                <constraint firstItem="R70-WC-QkF" firstAttribute="top" secondItem="Z5g-6V-Krc" secondAttribute="top" id="cWJ-rW-xNH"/>
+                                <constraint firstItem="7cm-H9-qO1" firstAttribute="centerY" secondItem="Z5g-6V-Krc" secondAttribute="centerY" id="jRa-tW-x1x"/>
+                                <constraint firstItem="C92-b5-cMH" firstAttribute="leading" secondItem="Z5g-6V-Krc" secondAttribute="leadingMargin" id="pmO-6E-ha5"/>
+                                <constraint firstItem="R70-WC-QkF" firstAttribute="leading" secondItem="Z5g-6V-Krc" secondAttribute="leading" id="xGu-S8-fBH"/>
+                            </constraints>
                         </view>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eLm-Eu-f6F">
-                                <rect key="frame" x="0.0" y="106.5" width="896" height="43.5"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLm-Eu-f6F" id="Tga-XF-4wG">
-                                    <rect key="frame" x="44" y="0.0" width="808" height="43.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection headerTitle="Check project on GitHub" id="TtT-5q-4Vr">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="eLm-Eu-f6F">
+                                        <rect key="frame" x="64" y="149.5" width="768" height="53.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eLm-Eu-f6F" id="Tga-XF-4wG">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yG6-wk-78p">
+                                                    <rect key="frame" x="20" y="11" width="728" height="31.5"/>
+                                                    <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="terminal" catalog="system" imagePlacement="trailing" title="Chorder on GitHub" imagePadding="5"/>
+                                                    <connections>
+                                                        <action selector="goTo:" destination="yfG-aN-qVO" eventType="touchUpInside" id="68K-XI-XWB"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="yG6-wk-78p" secondAttribute="bottom" id="2rY-vc-Idx"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="yG6-wk-78p" secondAttribute="trailing" id="QMc-bA-0NS"/>
+                                                <constraint firstItem="yG6-wk-78p" firstAttribute="top" secondItem="Tga-XF-4wG" secondAttribute="topMargin" id="ez2-y0-hqy"/>
+                                                <constraint firstItem="yG6-wk-78p" firstAttribute="leading" secondItem="Tga-XF-4wG" secondAttribute="leadingMargin" id="g9O-zJ-qBc"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="If you have any ideas or suggestions" id="MmK-60-r0i">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="j2H-d7-Xrl">
+                                        <rect key="frame" x="64" y="253" width="768" height="53.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="j2H-d7-Xrl" id="iPX-fW-RPM">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6A4-fz-6c0">
+                                                    <rect key="frame" x="20" y="11" width="728" height="31.5"/>
+                                                    <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="paperplane.circle.fill" catalog="system" imagePlacement="trailing" title="Telegram" imagePadding="5"/>
+                                                    <connections>
+                                                        <action selector="goTo:" destination="yfG-aN-qVO" eventType="touchUpInside" id="fjy-zH-B1e"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="6A4-fz-6c0" secondAttribute="trailing" id="T2r-Po-lS7"/>
+                                                <constraint firstItem="6A4-fz-6c0" firstAttribute="top" secondItem="iPX-fW-RPM" secondAttribute="topMargin" id="VzR-nx-Exs"/>
+                                                <constraint firstItem="6A4-fz-6c0" firstAttribute="leading" secondItem="iPX-fW-RPM" secondAttribute="leadingMargin" id="b4C-9Y-Ey3"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="6A4-fz-6c0" secondAttribute="bottom" id="sUD-3W-UR6"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Edm-Dw-aWb">
+                                        <rect key="frame" x="64" y="306.5" width="768" height="53.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Edm-Dw-aWb" id="03d-BA-I9R">
+                                            <rect key="frame" x="0.0" y="0.0" width="768" height="53.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSa-DH-Sfl">
+                                                    <rect key="frame" x="20" y="11" width="728" height="31.5"/>
+                                                    <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.right.fill" catalog="system" imagePlacement="trailing" title="ВКонтакте" imagePadding="5"/>
+                                                    <connections>
+                                                        <action selector="goTo:" destination="yfG-aN-qVO" eventType="touchUpInside" id="BoD-wh-kCF"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.88235294819999999" green="0.85098040100000005" blue="0.78823530669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="dSa-DH-Sfl" secondAttribute="trailing" id="Uqg-Ml-pY6"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="dSa-DH-Sfl" secondAttribute="bottom" id="YTg-2x-u1V"/>
+                                                <constraint firstItem="dSa-DH-Sfl" firstAttribute="top" secondItem="03d-BA-I9R" secondAttribute="topMargin" id="fFm-GV-jzi"/>
+                                                <constraint firstItem="dSa-DH-Sfl" firstAttribute="leading" secondItem="03d-BA-I9R" secondAttribute="leadingMargin" id="mJ1-mo-fUA"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="yfG-aN-qVO" id="ZGr-pt-pxI"/>
                             <outlet property="delegate" destination="yfG-aN-qVO" id="DZV-cf-XlL"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="ChS-UC-pgA"/>
+                    <connections>
+                        <outlet property="VKSender" destination="dSa-DH-Sfl" id="4Ea-l2-Ldr"/>
+                        <outlet property="gitHubSender" destination="yG6-wk-78p" id="8nd-dd-Jlj"/>
+                        <outlet property="logoBlur" destination="R70-WC-QkF" id="hMU-R3-Eaf"/>
+                        <outlet property="telegramSender" destination="6A4-fz-6c0" id="uW7-pJ-N5h"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EvF-cp-WSb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="kcG-D5-IUq" userLabel="Exit" sceneMemberID="exit"/>
+                <view contentMode="scaleToFill" id="jDg-e2-Luc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="KsG-wz-qYM"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
             </objects>
-            <point key="canvasLocation" x="2978.5714285714284" y="200.00000000000003"/>
+            <point key="canvasLocation" x="2164" y="1081"/>
         </scene>
         <!--Main-->
         <scene sceneID="pNz-Fv-QhU">
@@ -398,6 +559,9 @@
                                                     <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system" title=" ">
                                                         <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="25"/>
                                                     </buttonConfiguration>
+                                                    <connections>
+                                                        <segue destination="yfG-aN-qVO" kind="show" id="C3P-pU-ryD"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <color key="backgroundColor" red="0.8078432083" green="0.69803923369999998" blue="0.87843137979999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -4285,12 +4449,16 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ChorderIpaIcon" width="1024" height="1024"/>
         <image name="Stan" width="2361" height="309"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
+        <image name="paperplane.circle.fill" catalog="system" width="128" height="121"/>
         <image name="repeat.circle" catalog="system" width="128" height="121"/>
+        <image name="terminal" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -864,7 +864,9 @@ class CDViewController: UIViewController, MainControllerDelegate {
     }
     
     @IBAction func unwindToFirstScreen(_ segue: UIStoryboardSegue) {
-        
+        if segue.identifier == "isConfirm" {
+            print("ya")
+        } else {
         textForTunningTextField = ElementsBase.TunningFieldText[chordProperties.tuning!]
         setTextFieldConfiguration(for: &TunningView, withText: textForTunningTextField!)
         setGuitarStan(withStyle: chordProperties.guitarType!, guitar: Stan)
@@ -872,6 +874,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
         updateNotes(onController: self)
         updateChordInfo(withNotes: selectedNotes)
+        }
         
     }
     

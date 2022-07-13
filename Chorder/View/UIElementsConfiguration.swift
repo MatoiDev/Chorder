@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-let americanTypeWriter: String = "AmericanTypewriter-CondensedBold"
+let americanTypeWriter: String = "GeezaPro-Bold"
 
 let elementsBase: UIElementsOnWelcomeViewControllerStruct = UIElementsOnWelcomeViewControllerStruct()
 
