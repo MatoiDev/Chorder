@@ -10,7 +10,7 @@
 A useful determinant of guitar chords
 
 ### Compiling
-  - Use Xcode to compile *Chorder*.
+  - Use Xcode to compile *Chorder*
 
 ### Compatibility
 iPhone running iOS 13.x & 14.x & 15.x
