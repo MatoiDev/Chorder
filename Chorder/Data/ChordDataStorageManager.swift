@@ -19,9 +19,18 @@ class ChordDataStorageManager: UIViewController {
     lazy var chordSettings = ChordSettings(context: viewContext)
     
     open func initChordData() -> Void {
-        if !chordSettings.hadLoaded {
+        let request : NSFetchRequest<ChordSettings> = ChordSettings.fetchRequest()
+        
+        do {
+            if let settings = try viewContext.fetch(request).last {
+                chordSettings = settings
+            } else {
+                setDefaults(toData: &chordSettings)
+            }
+        } catch {
             setDefaults(toData: &chordSettings)
         }
+    
     }
     
     func setDefaults(toData data: inout ChordSettings) -> Void {

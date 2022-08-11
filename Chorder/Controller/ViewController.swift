@@ -815,7 +815,7 @@ class CDViewController: UIViewController, MainControllerDelegate {
         
         CHDataStorage.initChordData()
         chordProperties = CHDataStorage.chordSettings
-        
+                
         DispatchQueue.main.async {
             self.textForTunningTextField = self.ElementsBase.TunningFieldText[self.chordProperties.tuning!]
             setTextFieldConfiguration(for: &self.TunningView, withText: self.textForTunningTextField!)
@@ -833,10 +833,6 @@ class CDViewController: UIViewController, MainControllerDelegate {
         ChordTextField.text = txt
     }
     
-//    func updateTunningList(withIndex index: Int) -> Void {
-//        selectedNotes!.remove(at: index)
-//        print(Set(selectedNotes!).count)
-//    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -845,6 +841,14 @@ class CDViewController: UIViewController, MainControllerDelegate {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         UIDevice.current.setValue(UIInterfaceOrientation.landscapeRight.rawValue, forKey:  "orientation")
+//        loadSettings(to: &chordProperties)
+        textForTunningTextField = ElementsBase.TunningFieldText[chordProperties.tuning!]
+        setTextFieldConfiguration(for: &TunningView, withText: textForTunningTextField!)
+        setGuitarStan(withStyle: chordProperties.guitarType!, guitar: Stan)
+        setLablesOfFretsConfiguration(withStyle: chordProperties.fretsStyle!, controller: self)
+        setTunningLabelsOnPunchBoard(withTunning: chordProperties.tuning!, controller: self)
+        updateNotes(onController: self)
+        updateChordInfo(withNotes: selectedNotes)
     }
     
     
