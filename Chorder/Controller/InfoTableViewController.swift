@@ -114,7 +114,7 @@ class InfoTableViewController: UITableViewController {
     
     @IBAction func goTo(_ sender: UIButton) {
         let VKURL = URL(string: "https://vk.com/f4ther_of_all")!
-        let GitHubURL = URL(string: "https://github.com/AppIeWorm/Chorder")!
+        let GitHubURL = URL(string: "https://github.com/MatoiDev/Chorder")!
         let TelegramURL = URL(string: "https://t.me/Uncle_Milty")!
         
         if sender == VKSender {
